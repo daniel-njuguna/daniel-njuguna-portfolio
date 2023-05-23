@@ -21,9 +21,22 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #f1f1f1;
+    background-color: #c04444;
   }
+  body {
+    background-color: var(--body-color);
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+}
+
   
+  div logo {
+  width:70px;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  animation: slideLeft 5s linear infinite;
+  }
   nav ul {
     list-style: none;
     margin: 0;
@@ -47,7 +60,9 @@ header {
   nav ul li a:hover {
     background-color: #ddd;
   }
-  
+#about {
+  background-color: rgb(52, 31, 31);
+}
 #about .wrapper {
     display: flex;
     justify-content: space-between;
@@ -128,7 +143,9 @@ header {
   align-items: center;
   flex-wrap: wrap;
 }
-
+#contact {
+  background-color: #080707;
+}
 #contact .contact-wrapper .contact-l {
   width: 35%;
 }
